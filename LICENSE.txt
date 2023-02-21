@@ -1,0 +1,33 @@
+﻿
+import random
+
+while True:
+ chars = '+-/*!&$#?=@<>abcdefghijklnopqrstuvwxyzABCDEFGHIJKLNOPQRSTUVWXYZ1234567890'
+ number = int(input('Количество паролей?'+ "\n"))
+ length = int(input('Длина пароля?'+ "\n"))
+ number = int(number)
+ lenght = int(length)
+ for n in range(number):
+    password = ''
+    for i in range(length):
+        password += random.choice(chars)
+        print(password)
+
+
+
+print("Нажмите Enter,чтобы выйти!")
+a=input()
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
